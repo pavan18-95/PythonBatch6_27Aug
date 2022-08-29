@@ -1,13 +1,13 @@
-a = 10
-b = 20
+number1 = 10
+number2 = 20
 
-def add(a,b):
-    return a+b
+def addition(number1,number2):
+    return number1+number2
 
-print(f"Addition of {a} and {b} id {add(a,b)}")
+print(f"Addition of {number1} and {number2} id {addition(number1,number2)}")
 
 
-def sub(a,b):
-    return a-b
+def sub(number1,number2):
+    return number1-number2
 
-print(f"subtraction of {a} and {b} id {sub(a,b)}")
+print(f"subtraction of {number1} and {number2} id {sub(number1,number2)}")
